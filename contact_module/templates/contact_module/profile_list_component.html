@@ -1,0 +1,21 @@
+{% extends 'shared/_layout.html' %}
+
+{% block title %}
+    Profiles List
+{% endblock %}
+
+
+{% block content %}
+    <div id="row">
+        <div id="col-md-12">
+            {% for profile in profiles %}
+                <ul>
+                    <li>
+                        <img src="{{ profile.image.url}}" alt="" width="150px">
+                    </li>
+                </ul>
+
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

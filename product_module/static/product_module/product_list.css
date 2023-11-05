@@ -1,0 +1,19 @@
+* {
+
+    background-color: #252525;
+}
+
+ul, a, p {
+    text-align: center;
+    list-style: none;
+    color: white;
+}
+
+product {
+
+    align-content: center;
+    border-radius: 2rem;
+    width: 80%;
+
+
+}
